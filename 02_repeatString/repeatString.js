@@ -1,4 +1,9 @@
-const repeatString = function() {
+const repeatString = function(string, number) {
+    let stringList=[];
+    for (let i=0 ; i<number; i++){
+    stringList.push(string)
+}
+return stringList.join("")
 
 };
 
